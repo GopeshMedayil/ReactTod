@@ -6,7 +6,7 @@ export const loadState = () => {
     if (localData != null) {
       return JSON.parse(localData);
     } else {
-      return undefined;
+      return [];
     }
   } catch (e) {}
 };

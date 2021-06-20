@@ -34,3 +34,12 @@ export let reducer = (state = todos, action) => {
       return state;
   }
 };
+let testSate = [{ name: "Gopesh" }];
+export let testReducer = (state = testSate, action) => {
+  switch (action.type) {
+    case "ADD":
+      break;
+    default:
+      return state;
+  }
+};
